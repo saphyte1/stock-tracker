@@ -1,3 +1,46 @@
+# Stock Tracker Application
+
+## Description
+The Stock Tracker Application is a real-time web application designed to track stock prices. Using Node.js, Express, and Socket.IO for the backend, coupled with a React-based frontend, it allows users to view live stock data by entering stock symbols.
+
+## Features
+- Real-time stock price tracking.
+- Easy-to-use interface to enter stock symbols.
+- Live display of stock data fetched from the Alpha Vantage API.
+
+## Installation
+
+Before you begin, ensure you have Node.js installed on your system. You can download and install it from [Node.js official website](https://nodejs.org/).
+
+### Setting Up the Backend
+
+1. Clone the repository to your local machine.
+2. Navigate to the `stock-tracker` directory.
+3. Install the necessary Node modules:
+   ```bash
+   npm install
+4. Create a .env file in the root of the backend directory. Add the following line:
+  ALPHA_VANTAGE_API_KEY=Your_API_Key_Here
+
+Replace Your_API_Key_Here with your Alpha Vantage API key. If you don't have an API key, you can obtain one from Alpha Vantage.
+
+### Setting Up the Frontend
+
+1. Navigate to the stock-tracker-frontend directory.
+2. Install the necessary Node modules:
+  npm install
+3. To start the frontend application, run:
+  npm start
+
+### Usage
+To use the application, first start the backend server:
+  cd path/to/stock-tracker
+  node server.js
+Then, open a new terminal window and start the frontend:  
+  cd path/to/stock-tracker-frontend
+  npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
