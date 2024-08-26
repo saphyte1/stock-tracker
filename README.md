@@ -1,7 +1,7 @@
 # Stock Tracker Application
 
 ## Description
-The Stock Tracker Application is a real-time web application designed to track stock prices. Using Node.js, Express, and Socket.IO for the backend, coupled with a React-based frontend, it allows users to view live stock data by entering stock symbols.
+Thia Stock Tracker Application is a real-time web application designed to track stock prices. Using Node.js, Express, and Socket.IO for the backend, coupled with a React-based frontend, it allows users to view live stock data by entering stock symbols.
 
 ## Features
 - Real-time stock price tracking.
@@ -10,30 +10,30 @@ The Stock Tracker Application is a real-time web application designed to track s
 
 ## Installation
 
-Before you begin, ensure you have Node.js installed on your system. You can download and install it from [Node.js official website](https://nodejs.org/).
+Download and install node.js on your device
 
 ### Setting Up the Backend
 
 1. Clone the repository to your local machine.
-2. Navigate to the `stock-tracker` directory.
-3. Install the necessary Node modules:
+2. Go to the `stock-tracker` directory.
+3. Install the modules:
    ```bash
    npm install
-4. Create a .env file in the root of the backend directory. Add the following line:
+4. Create a .env file in the root of the backend directory. Add the line:
   ALPHA_VANTAGE_API_KEY=Your_API_Key_Here
 
-Replace Your_API_Key_Here with your Alpha Vantage API key. If you don't have an API key, you can obtain one from Alpha Vantage.
+Replace Your_API_Key_Here with your Alpha Vantage API key. You can get one from Alpha Vantage.
 
 ### Setting Up the Frontend
 
-1. Navigate to the stock-tracker-frontend directory.
-2. Install the necessary Node modules:
+1. Go to the stock-tracker-frontend directory.
+2. Install the modules:
   npm install
-3. To start the frontend application, run:
+3. To start the frontend, run:
   npm start
 
 ### Usage
-To use the application, first start the backend server:
+To use the application, first start the backend:
   cd path/to/stock-tracker
   node server.js
 Then, open a new terminal window and start the frontend:  
@@ -71,16 +71,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
