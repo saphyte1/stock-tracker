@@ -1,7 +1,7 @@
 # Stock Tracker Application
 
 ## Description
-Thia Stock Tracker Application is a real-time web application designed to track stock prices. Using Node.js, Express, and Socket.IO for the backend, coupled with a React-based frontend, it allows users to view live stock data by entering stock symbols.
+This Stock Tracker Application is a real-time web application designed to track stock prices. Using Node.js, Express, and Socket.IO for the backend, coupled with a React-based frontend, it allows users to view live stock data by entering stock symbols.
 
 ## Features
 - Real-time stock price tracking.
